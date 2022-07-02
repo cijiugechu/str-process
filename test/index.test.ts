@@ -58,9 +58,9 @@ describe('StrProcess', () => {
     expect(strProcess2.runWith('h3e5l lo')).toBe('35')
   })
 
-  it('should work with `sliceHead`', () => {
+  it('should work with `maxLength`', () => {
     const strProcess = StrProcess.of()
-    const strProcess2 = strProcess.sliceHead(3)
+    const strProcess2 = strProcess.maxLength(3)
     expect(strProcess2.runWith('hello')).toBe('hel')
   })
 

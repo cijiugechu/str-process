@@ -69,7 +69,7 @@ class StrProcess {
         return this.map(v => v.replace(/[^0-9]/g, ''))
     }
 
-    sliceHead(n: number) {
+    maxLength(n: number) {
         return this.map(v => v.slice(0, n))
     }
 
