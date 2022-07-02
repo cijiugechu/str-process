@@ -65,6 +65,10 @@ class StrProcess {
         return this.map(v => v.replace(/[^a-zA-Z\s]/g, ''))
     }
 
+    alphaBetWithDigits() {
+        return this.map(v => v.replace(/[^a-zA-Z0-9]/g, ''))
+    }
+
     digits() {
         return this.map(v => v.replace(/[^0-9]/g, ''))
     }

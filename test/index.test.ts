@@ -52,6 +52,11 @@ describe('StrProcess', () => {
     expect(strProcess2.runWith('h3e5l lo')).toBe('hel lo')
   })
 
+  it('should work with `alphaBetWithDigits`', () => {
+    const strProcess = StrProcess.of().alphaBetWithDigits()
+    expect(strProcess.runWith('h3e5l lo')).toBe('h3e5llo')
+  })
+
   it('should work with `digits`', () => {
     const strProcess = StrProcess.of()
     const strProcess2 = strProcess.digits()
