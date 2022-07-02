@@ -1,6 +1,8 @@
 # str-process
 
 [![npm version](https://badgen.net/npm/v/str-process)](https://npm.im/str-process) [![npm downloads](https://badgen.net/npm/dm/str-process)](https://npm.im/str-process)
+
+Process your string input efficiently.
 ## Install
 
 ```bash
